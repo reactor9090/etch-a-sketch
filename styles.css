@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(224, 238, 251);
+}
+
+.container {
+    display: flex;
+    margin: 50px auto; 
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.cell {
+    border: 1px solid whitesmoke;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+#setGridCells {
+    font-size: 20px;
+    padding: 10px ;
+    background-color: white;
+    cursor: pointer;
+}
+
+#setGridCells:hover{
+    background-color: gray;
+    color: white;
+}
+
+#message {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 17);
+    margin-top: 15px;
+}
+
+.coloredbtn-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.coloredbtn-container > button {
+    font-size: 20px;
+    padding: 10px ;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.coloredbtn-container > button:hover {
+    background-color: gray;
+    color: white;
+}
+
